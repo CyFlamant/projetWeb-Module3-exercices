@@ -1,0 +1,13 @@
+var chaine = "Bonjour le monde";
+console.log("longueur de la chaine : " + chaine.length);
+console.log("4ème caractère : " + chaine.charAt(3));
+var chaine2 = "Salut";
+var chaine3 = " tout le monde";
+console.log("Concaténation 1 : " + chaine2.concat(chaine3));
+console.log("Concaténation 2 : " + chaine2 + chaine3);
+console.log("Position du mot monde : " + chaine.indexOf("monde"));
+console.log("Dernière instance de o : "+ chaine.lastIndexOf("o"));
+console.log("Découpage en lettres : " + chaine.split(''));
+console.log("Découpage en mots : " + chaine.split(' '));
+console.log("En majuscules : " + chaine.toUpperCase());
+console.log("En minuscules : "+ chaine.toLowerCase());
